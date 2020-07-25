@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <link rel="stylesheet" href="styles/layout.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="scripts/dragAndDrop.js"></script>
+</head>
+<body>
+    <header id="mainHeader">
+        <div>
+            <a class="headerLogo" href="index.html">
+                <img src="images/logo.jpg" width="50" height="49">
+            </a>  
+            <span id ="headerName">Maa's Doughnut Shop</span>
+            <input type="search" class="searchbox" placeholder="Search our shop"/>
+          </div>
+          <nav class="backgroundgradient">
+            <ul>
+                <li><a class="navlink" href="index.html" >Home</a></li>
+                <li><a class="navlink" href="allDoughnut.html" >Our doughnuts</a></li>
+                <li><a class="navlink" href="doughnutdetails.html" >Doughnut details</a></li>
+                <li><a class="navlink" href="checkout.html" >Check out</a></li>
+          
+            </ul>
+        </nav>
+      </header>
+        <div id="welcomeimage">
+            <img src="images/doughnut2.jpg">
+        </div>
+        <div id="doughnutofthemonth">
+            <img src="images/dou4.jpg" />
+        </div>
+        <section class="doughnutdetails">
+            <header class="blockheader">
+                Checkout
+            </header>
+            <form id="mainForm" action="#" method="POST">
+                <fieldset class="box">
+                    <legend> your details</legend>
+                      <div>
+                        <p>
+                          <label class="textlable" for="firstNameInpute">First Name</label>
+                          <input id="firstNameInpute" name="FirstName" type="text" maxlength="30" required="required" >
+                        </p>
+                        <p>
+                            <label class="textlable" for="lastNameInpute">Last Name</label>
+                            <input id="lastNameInpute" name="LastName" type="text" maxlength="50" required="required">
+                          </p>
+                        <p>
+                            <label class="textlable" for="emailInpute">Email</label>
+                            <input id="emailInpute" name="Email" type="email" class ="textinpute" required="required">
+                        </p>
+                        <!--<p>
+                            <label class="textlable" for="numberInpute">Number</label>
+                            <input id="numberInpute" name="Number" type="text"  class ="textinpute" required="required">
+                        </p>-->
+                        <p>
+                            <label class="textlable" for="zipIpute">Zip code</label>
+                            <input id="zipInpute" name="Zip" type="text"  class ="textinpute" required="required">
+                          </p>
+                        <p>
+                            <label class="textlable" for="cityIpute">City</label>
+                            <input id="cityInpute" name="City" type="text"  class ="textinpute" required="required">
+                        </p>
+                        <p>
+                            <label class="textlable" for="countryIpute">Country</label>
+                            <input id="countryInpute" name="Country" type="text"  class ="textinpute"  size="40" pattern="[A-Za-z{3}]" placeholder="Enter only the first three digits of your country">
+                        </p>
+                        <p>
+                            <label class="textlable" for="phoneIpute">Phone number</label>
+                            <input id="phoneInpute" name="PhoneNumber" type="text"  class ="textinpute">
+                        </p>
+                        <!--<p>
+                            <label class="textlable" for="blogIpute">Blog</label>
+                            <input id="blogInpute" name="Blog" type="url"  class ="textinpute">
+                        </p>-->
+                        <p>
+                            <label class="textlable" for="remarkIpute">Remark</label>
+                            <input id="remarkInpute" name="Remarh" type="url"  class ="textinpute" required="required">
+                        </p>
+                        
+                     </div>
+                </fieldset>
+                <fieldset class="box">
+                    <legend> Your order</legend>
+
+                        <p>
+                          <label class="textlable" for="delivarydateInpute">Requested delivary date</label>
+                          <input id="delivarydateInpute" name="BirthDate" type="date"class="textinpute" required="required"> 
+                        </p>
+                        <p>
+                            <label class="textlable" for="colorInpute">Wrapping paper color</label>
+                            <input id="colorInpute" name="Color" type="color" class="textinpute" required="required">
+                        </p>
+                        <p>
+                            <label class="textlable" for="bowInpute">How many bows on the package</label>
+                            <input id="bowInpute" name="Bows" type="number"  placeholder="Enter a value between 1 and 10" size="30" class ="textinpute" min="1" max="10" required="required">
+                        </p>
+                </fieldset>
+                <br>
+                 <input type="submit" class="submitbutton" value="Place order"/>
+            </form>
+        </section>
+</body>
+</html>

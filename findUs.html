@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find us</title>
+    <link rel="stylesheet" href="styles/layout.css"> 
+    <script async defer src="http://maps.googleapis.com/maps.api/js?key=AIzaSyCIkbXQASHuD9Ez4i5ko7XNbzxgbG1_-tM&callback=initMap"></script>
+    <script src="scripts/geolocation.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div>
+            <a class="headerLogo" href="index.html">
+                <img src="images/logo.png">
+            </a>  
+        <span id ="headerName">Maa's Doughnut Shope</span>
+        <input type="search" class="searchbox" placeholder="Search our shop"/>    
+      </div>
+    <nav class="backgroundgradient">
+    <ul>
+        <li><a class="navlink" href="index.html" >Home</a></li>
+        <li><a class="navlink" href="allDougnut.html" >Our doughnuts</a></li>
+        <li><a class="navlink" href="checkout.html" >Check out</a></li>
+        <li><a class="navlink" href="findus.html" >Find us</a></li>
+    </ul>
+    </nav>
+    </header>
+    <div id="welcomeimage">
+        <img src="images/doughnut2.jpg">
+    </div>
+    <div id="doughnutofthemonth">
+      <img src="images/dou4.jpg" />
+  </div>
+<section class="alldougnuts">
+    <header class="blockheader">
+        <span>Come to our real life store!</span>
+    </header>
+    <div id="maps" >
+
+    </div>
+
+    <div id="driving-directions" >
+        
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", createDrivingDirectionsMap, false)
+    </script>
+
+</body>
+</html>

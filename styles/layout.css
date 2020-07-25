@@ -1,0 +1,280 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header{
+    font-weight: bold;
+    
+}
+
+.headerLogo{
+    float: left;
+    margin-right: 10px;
+}
+
+.headerLogo > img{
+    width: 60px;
+    height: 60px;
+}
+.searchbox{
+    float: right;
+    width: 200px;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+#headerName{
+    font-size: 40px;
+    color: #603813;
+    padding: 15px;
+    margin:8px 0px ;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 5px 5px #5f2c17;
+}
+
+#welcomeimage{
+    float: left;
+    width: 700px;
+    clear: both;
+}
+#doughnutofthemonth{
+    float: right;
+    width: 200px;
+}
+
+#welcomeimage > img{
+    width: 700px;
+    height: 300px;
+}
+#welcomeText{
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:12px;
+    column-width: 300px;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+#welcomeText > header{
+    color: #603813;
+    font-size: 15px ;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+#events > header{
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    
+    
+}
+#events > ul{
+    list-style: none;
+}
+#events > ul > li{
+    margin-bottom: 3px;
+    text-decoration: underline;
+} 
+#bestselllers{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+#bestselllers > header{
+    columns: #603813;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+ clear: both;
+ width: 100%;
+ padding: 5px;
+ margin: 20px 0px 20px;
+ background-color: #5c5045;
+}
+
+.doughnutbestsellers{
+    float: left;
+}
+
+.doughnutbestsellers > header{
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+}
+.accessoriesbestsellers{
+    clear:both;
+}
+
+.productarticle {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+.productarticlename a {
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.addtocartbutton {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #603813;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+nav{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    background-color: #603813;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+.navlink{
+    float: left;
+    height: 35px;
+    margin-right: 50px;
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+.doughnutdetails{
+    float: left;
+    width: 1000px;
+}
+
+/*allDoughnut.html*/
+.blockheader {
+    font-size: 30px;
+    font-family:'Lobster', cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.blockheader span{
+    float: left;
+    width: 1000px;
+    margin-bottom: 16px;
+}
+.alldoughnuts{
+    float: left;
+    width: 600px;
+}
+.blockheader {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.productarticlewide {
+    width: 70%;
+    float: left;
+}
+
+.productarticlewidethumbnail {
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+}
+
+.productarticlewidecontent {
+    width: 80%;
+    float: right;    
+}
+
+.productarticlewidedescription {
+    flex-wrap: normal;
+    text-align: justify;
+    width: 80%;
+}
+
+.productarticlewidename {
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.productarticlewideprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+#shoppingcart {
+    float: right;
+    width: 30%;   
+}
+
+input {
+    box-sizing: border-box;
+    
+}
+.productdescription >p{
+    text-align: justify;
+}
+
+.accessoriesbestsellers > header{
+    background-color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+} 

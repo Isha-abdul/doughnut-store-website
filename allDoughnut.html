@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Our Doughnuts</title>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+    <script src="scripts/dragAndDrop.js"></script>  
+</head>
+<body>
+    <header>
+        <div>
+            <a class="headerLogo" href="index.html">
+                <img src="images/logo.jpg" width="50" height="49">
+            </a>  
+        <span id ="headerName">Maa's Doughnut Shope</span>
+        <input type="search" class="searchbox" placeholder="Search our shop"/>    
+      </div>
+    <nav class="backgroundgradient">
+    <ul>
+        <li><a class="navlink" href="index.html" >Home</a></li>
+        <li><a class="navlink" href="allDoughnut.html" >Our doughnuts</a></li>
+        <li><a class="navlink" href="doughnutdetails.html" >Doughnut details</a></li>
+        <li><a class="navlink" href="checkout.html" >Check out</a></li>
+    </ul>
+    </nav>
+    </header>
+    <div id="welcomeimage">
+        <img src="images/doughnut2.jpg">
+    </div>
+    <div id="doughnutofthemonth">
+      <img src="images/dou4.jpg" />
+  </div>
+<section class="alldougnuts">
+    <header class="blockheader">
+        <span>Doughnut Types</span>
+    </header>
+    <div id="shoppingcart">
+        <header class="blockheader"><span>Shopping cart</span></header> 
+        <br><br>      
+         <ul></ul>
+    </div>
+    <article class="productarticlewide" id="plain doughnut" data-price="$3.00">
+        <img id="doughnut1" class="productarticlewidethumbnail" src="images/dou1.jpg" width="100px" height="100px">
+            <div class="productarticlewidecontent">
+            <header><span class="productarticlewidename">Plain doughnut</span></header>
+             <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+            <p class="productarticlewideprice">$3</p>
+            </div>
+    </article>
+    <article class="productarticlewide" id="Pink icing doughnut" data-price="$2.50">
+        <img id="doughnut2" class="productarticlewidethumbnail" src="images/dou2.jpg">
+          <div class="productarticlewidecontent">
+                <header><span class="productarticlewidename">Pink icing doughnut</span></header>
+                     <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="productarticlewideprice">$2.50</p>
+            </div>
+    </article>
+    <article class="productarticlewide" id="White icing doughnut" data-price="$4.00">
+        <img id="doughnut3" class="productarticlewidethumbnail" src="images/dou6.jpg">
+          <div class="productarticlewidecontent">
+                <header><span class="productarticlewidename">Pink icing doughnut</span></header>
+                     <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="productarticlewideprice">$4.00</p>
+            </div>
+    </article>
+    <article class="productarticlewide" id="Chocolate doughnut" data-price="$5.00">
+        <img id="doughnut4" class="productarticlewidethumbnail" src="images/dou7.jpg">
+          <div class="productarticlewidecontent">
+                <header><span class="productarticlewidename">Pink icing doughnut</span></header>
+                     <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="productarticlewideprice">$5.00</p>
+            </div>
+    </article>
+    <article class="productarticlewide" id="Jam doughnut" data-price="$5.00">
+        <img id="doughnut5" class="productarticlewidethumbnail" src="images/dou5.jpg">
+          <div class="productarticlewidecontent">
+                <header><span class="productarticlewidename">Pink icing doughnut</span></header>
+                     <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="productarticlewideprice">$5.00</p>
+            </div>
+    </article>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", addDnDHandlers, false);
+    </script>
+</body>
+</html>
